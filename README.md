@@ -18,7 +18,7 @@ This component is an SDF project created using SuiteScript 2.1. The project cont
 Also, a [custom module](netsuite/src/FileCabinet/SuiteScripts/easerver/vac_book_cm.js) handles the book operations; Book searching, creating, and edition.
 
 ## Java Middleware
-The Netsuite integration allows a server-to-server connection when the client is outside. For that reason, a middleware was created to connect the client and the Netsuite Web Service.
+A Netsuite integration just allows a server-to-server connection when the client is outside. For that reason, a middleware was created to connect the client and the Netsuite Web Service.
 
 ## Ionic 3 Project
 
