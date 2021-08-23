@@ -1,0 +1,49 @@
+<!--
+  Generated template for the BookCreatePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar color="primary" >
+    <ion-title *ngIf="mode == 'create'">New Book</ion-title>
+    <ion-title *ngIf="mode == 'edit'">Edit Book</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item>
+      <ion-label stacked >Title</ion-label>
+      <ion-input type="text" name="title" placeholder="Title of the book..." [(ngModel)]="title" required ></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label stacked >Author</ion-label>
+      <ion-input type="text" name="author" placeholder="Author of the book..." [(ngModel)]="author" required ></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label stacked >Year</ion-label>
+      <ion-input type="number" name="year" placeholder="Year of the book..." [(ngModel)]="year" required ></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label stacked >Editorial</ion-label>
+      <ion-input type="text" name="editorial" placeholder="Editorial of the book..." [(ngModel)]="editorial" required ></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label stacked >Number of pages</ion-label>
+      <ion-input type="number" name="numberPages" placeholder="Number of pages" [(ngModel)]="numberPages" ></ion-input>
+    </ion-item>
+
+    <ion-item text-center>
+      <button ion-button color="secondary" large type="button" (click)="save()"> 
+        Guardar
+      </button>
+    </ion-item>
+
+  </ion-list>
+
+</ion-content>
