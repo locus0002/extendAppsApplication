@@ -15,7 +15,7 @@ This component is an SDF project created using SuiteScript 2.1. The project cont
 - [Custom Record](netsuite/src/Objects/customrecord_vac_book.xml) to store a book collection
 - [Restlet Script](netsuite/src/FileCabinet/SuiteScripts/easerver/vac_nsserver_rs.js), which is in charge of handling the POST, GET, and PUT http requests. 
 
-Also, a [custom module](netsuite/src/FileCabinet/SuiteScripts/easerver/vac_book_cm.js) handles the book operations; Book searcing, creating, and edition.
+Also, a [custom module](netsuite/src/FileCabinet/SuiteScripts/easerver/vac_book_cm.js) handles the book operations; Book searching, creating, and edition.
 
 ## Java Middleware
 The Netsuite integration allows a server-to-server connection when the client is outside. For that reason, a middleware was created to connect the client and the Netsuite Web Service.
