@@ -2,7 +2,7 @@
 /netsuite/.idea
 *.iml
 *.iws
-.project
+/netsuite/.project
 .classpath
 *.launch
 .settings
